@@ -1,38 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto+Condensed:wght@300&family=RocknRoll+One&display=swap');
+
+:root {
+  --black: #000000;
+  --yellow: #ffc107
+}
+
+body {
+  font-family: "Roboto Condesed" sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Navbar CSS */
+.logo {
+  width: 10.25rem;
+  height: 5rem;
+}
+
+/* Menu Links */
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+/* !important  >> this overwrites bootstrap rules */
+.navbar-nav > li > a {
+  color: var(--black) !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: .1875rem solid var(--yellow);
+}
+/* Hover not working */
+/* .navbar-nav > li > a.hover {
+  border-top: .1875rem solid var(--yellow)!important;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* // --------------------------
+// Header
+// -------------------------- */
+
+.header {
+  font-family: s 'Lucida Grande', sans-serif;
+  font-size: 50px;
+  color: gold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  font-family: Gill Sans,sans-serif;
+  font-size: 50px;
+  color: grey;
 
-.App-link {
-  color: #61dafb;
-}
+  /* .email {
+    padding-right: 30px;
+    color:purple;
+  }
+  .linkedin{
+    color: purple;
+  }
+} */
+/* 
+// --------------------------
+// Projects
+// -------------------------- */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
