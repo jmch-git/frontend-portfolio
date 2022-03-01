@@ -1,5 +1,10 @@
+import React from "react";
+import logo from "../June_Logo_Thin.png";
+
 function Header(props) {
     return  <div>
-                <h1>Header</h1>
+                 <img src={logo} alt="logo..." class="logo" />
             </div>;
 }
+
+export default Header;

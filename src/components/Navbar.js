@@ -1,13 +1,13 @@
 import React from "react";
-import logo from "../June_Logo_Thin.png";
+
 
 function Navbar(props) {
     return  <div>
-                <nav class="navbar navbar-expand-lg navbar-light">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-light">
                 {/* Adding this container <div> to contain the items within 
                         so that there can be some space from the edge */}
                 <div class="container">
-                    <a href="#" class="navbar-brand"> <img src={logo} alt="logo..." class="logo" /></a>
+                    <a href="#" class="navbar-brand">June Holmberg</a>
                     <button 
                     class="navbar-toggler" 
                     type="button" 
