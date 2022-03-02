@@ -22,8 +22,21 @@ body {
 } 
 
 .H2-Title {
-  font-family: "Roboto Condesed" sans-serif;
   font-size: 50px;
+  font-weight: bolder;
+  color:#ff4081;
+}
+
+h3 {
+  font-size: 40px !important;
+  font-weight: bolder;
+  color:#ff4081;
+  padding-left: 30px;
+
+}
+
+h4 {
+  font-size: 28px !important;
   font-weight: bolder;
   color:#ff4081;
 }
@@ -87,7 +100,7 @@ nav ul li {
 }
 .Am-List {
   color: #ff4081;
-  font-size: 33px;
+  font-size: 40px;
 }
 .Engineer {
   color: #fff9c4;
@@ -96,8 +109,8 @@ nav ul li {
   font-family:'Arial Narrow Bold', sans-serif;
 }
 .I-Brand {
-  color:#ff4081;
-  font-size: 25px;
+  color:#fff9c4;
+  font-size: 30px;
 }
 
 /* Projects */
@@ -105,6 +118,42 @@ nav ul li {
   padding-top: 13px;
   padding-left: 13px;
 }
+
+.card {
+  width: 20rem;
+  min-height: 32rem;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+}
+
+.card-body {
+  padding: rem 0 !important;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  padding: 0.4rem 1.9rem;
+}
+
+.container-fluid {
+  padding-top: 6rem;
+}
+/* 
+.overflow {
+  overflow: hidden;
+} */
+.card-img-top {
+  transform:scale(1)
+}
+.card-img-top:hover {
+  transform: scale(1.4);
+}
+
+
 
 /* Skills */
 .Skills {
@@ -120,26 +169,19 @@ nav ul li {
   height: 75px;
 }
 
-.Footer {
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-family: Gill Sans,sans-serif;
-  font-size: 50px; */
-  color: grey;
-
-  /* .email {
-    padding-right: 30px;
-    color:purple;
-  }
-  .linkedin{
-    color: purple;
-  }
-} */
-/* 
-// --------------------------
-// Projects
-// -------------------------- */
-
+hr {
+  margin: 1rem 0;
+  background-color:  var(--grey) !important;
+  border: 10px;
+  opacity: 0.75;
+  width: 33px;
 }
+
+
+#Contact {
+width: 100vw;
+padding-left: 13px;
+padding-top: 13px;
+}
+
+

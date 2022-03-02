@@ -1,9 +1,8 @@
 import React from "react";
 
-
 function Navbar(props) {
     return  <div>
-                <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#757575" }}>
+                <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{ backgroundColor: "#757575" }}>
                 {/* Adding this container <div> to contain the items within 
                         so that there can be some space from the edge */}
                 <div className="container">

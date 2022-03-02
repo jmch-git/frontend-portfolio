@@ -26,15 +26,6 @@ const About = () => {
           <AboutText />
           </div>
         </div>
-        {/* <div className="col" style={{border:' 1px solid rgba(255,64,129)'}}>
-          <AboutList />
-        </div>
-        <div className="col" style={{border:' 1px solid rgba(255,64,129)'}}>
-         
-        </div>
-        <div className="col" style={{border:' 1px solid rgba(255,64,129)'}}>
-          
-        </div> */}
       </div>  
     </div>
   )
