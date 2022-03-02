@@ -3,29 +3,31 @@ import React from "react";
 
 function Navbar(props) {
     return  <div>
-                <nav class="navbar navbar-expand-lg bg-dark navbar-light">
+                <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#757575" }}>
                 {/* Adding this container <div> to contain the items within 
                         so that there can be some space from the edge */}
-                <div class="container">
-                    <a href="#" class="navbar-brand">June Holmberg</a>
+                <div className="container">
+                    <a href="/" className="navbar-brand">June Holmberg</a>
                     <button 
-                    class="navbar-toggler" 
+                    className="navbar-toggler" 
                     type="button" 
                     data-bs-toggle="collapse" 
                     data-bs-target="#navmenu"
-                    >
-                    <span class="navbar-toggler-icon"></span>
+                    ><span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navmenu">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                        <a href="#About" class="nav-link">About Me</a>
+                    <div className="collapse navbar-collapse" id="navmenu">
+                    <ul className="navbar-nav ms-auto">
+                        <li className="nav-item">
+                        <a href="#About" className="nav-link">About Me</a>
                         </li>
-                        <li class="nav-item">
-                        <a href="#Portfolio" class="nav-link">Portfolio</a>
+                        <li className="nav-item">
+                        <a href="#Projects" className="nav-link">Projects</a>
                         </li>
-                        <li class="nav-item">
-                        <a href="#Contact" class="nav-link">Contact</a>
+                        <li className="nav-item">
+                        <a href="#Skills" className="nav-link">Skills</a>
+                        </li>
+                        <li className="nav-item">
+                        <a href="#Contact" className="nav-link">Contact</a>
                         </li>
                     </ul>
                     </div>
