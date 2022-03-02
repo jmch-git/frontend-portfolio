@@ -2,8 +2,8 @@ import React from "react"
 
 function Projects() {
   return (
-    <div className="Projects">
-        <div className="Project-Title">
+    <div className="Projects" id="Projects">
+        <div className="H2-Title">
             Projects
         </div>
         <div class="card">

@@ -21,6 +21,13 @@ body {
   height: 50%;
 } 
 
+.H2-Title {
+  font-family: "Roboto Condesed" sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  color:#ff4081;
+}
+
 
 /* Navbar CSS */
 nav .navbar {
@@ -99,11 +106,18 @@ nav ul li {
   padding-left: 13px;
 }
 
-.Project-Title {
-  font-family: "Roboto Condesed" sans-serif;
-  font-size: 50px;
-  font-weight: bolder;
-  color:#ff4081;
+/* Skills */
+.Skills {
+  padding-top: 13px;
+  padding-left: 13px;
+}
+.col-lg-2 {
+  padding: 8px;
+}
+
+.col-lg-2 img {
+  width: 75px;
+  height: 75px;
 }
 
 .footer {
