@@ -9,8 +9,7 @@ import Header from "./components/Header";
 import About from "./components/About/About";
 import Projects from "./components/ProjectCards/Projects";
 import Skills from "./components/Skills";
-
-//import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 
 
@@ -22,6 +21,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
+      <Footer />
     </div>
   );
 }

@@ -120,13 +120,13 @@ nav ul li {
   height: 75px;
 }
 
-.footer {
-  display: flex;
+.Footer {
+  /* display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-family: Gill Sans,sans-serif;
-  font-size: 50px;
+  font-size: 50px; */
   color: grey;
 
   /* .email {
