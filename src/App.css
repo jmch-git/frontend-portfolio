@@ -10,9 +10,11 @@
 }
 
 body {
-  font-family: "Roboto Condesed" sans-serif;
+  font-family:"Trebuchet MS" sans-serif;
+  /* font-family: "Roboto Condesed" sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--grey) !important;
 }
 
 /* Header */
@@ -83,35 +85,62 @@ nav ul li {
 
 /* About */
 #About {
-  background-color:  var(--grey) !important;
   width: 100vw;
   padding-left: 13px;
+}
+
+.About {
+  display:grid;
+  grid-template-columns: 1fr,3fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  padding-top: 10px;
+}
+
+
+  
+.AboutImg { grid-area: 1 / 1 / 5 / 2; }
+.AboutIam { 
+  grid-area: 1 / 2 / 2 / 3; 
+  display:flex;
+  align-items: center;
+  color: #fff9c4;
+  font-size: 75px;
+  font-weight: bolder;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+.AboutList { 
+  grid-area: 2 / 2 / 3 / 3; 
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.AboutSE { 
+  grid-area: 3 / 2 / 4 / 3; 
+  display:flex;
+  align-items: center;  
+  color: #fff9c4;
+  font-size: 75px;
+  font-weight: bolder;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+.AboutText { 
+  grid-area: 4 / 2 / 5 / 3; 
+  display:flex;
+  align-items: center;
+  color:white;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .Headshot {
   width: 388px !important;
 }
 
-.I-Am {
-  color: #fff9c4;
-  font-size: 75px;
-  font-weight: bolder;
-  font-family:'Arial Narrow Bold', sans-serif;
-}
-.Am-List {
-  color: #ff4081;
-  font-size: 40px;
-}
-.Engineer {
-  color: #fff9c4;
-  font-size: 75px;
-  font-weight: bolder;
-  font-family:'Arial Narrow Bold', sans-serif;
-}
-.I-Brand {
-  color:#fff9c4;
-  font-size: 30px;
-}
 
 /* Projects */
 .Projects{
@@ -127,7 +156,7 @@ nav ul li {
 }
 
 .card:hover {
-  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+  box-shadow: 5px 10px 20px 1px rgba(255,249,196)!important;
 }
 
 .card-body {
@@ -185,3 +214,24 @@ padding-top: 13px;
 }
 
 
+@media only screen and (max-width: 1414px) {
+  .About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .AboutIam {
+    font-size: 55px !important;
+  }
+  .AboutList {
+    flex-wrap: wrap;
+    font-size: 30px !important;
+  }
+  .AboutSE {
+    font-size: 40px !important;
+  }
+  .AboutText {
+    font-size: 20px !important;
+  }
+
+} 

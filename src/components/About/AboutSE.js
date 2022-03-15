@@ -2,10 +2,8 @@ import React from 'react'
 
 function AboutSE() {
   return (
-    <div>
-        <span className="Engineer">
+      <div className="AboutSE">
             Software Engineer
-        </span>
     </div>
   )
 }

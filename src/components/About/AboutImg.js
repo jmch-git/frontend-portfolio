@@ -3,7 +3,7 @@ import HeadShot from "./June_Small.png";
 
 function AboutImg() {
   return (
-    <div className="img-fluid" >
+    <div className="AboutImg" >
         <img src={HeadShot} alt="About Me" className="Headshot" />
     </div>
   )
