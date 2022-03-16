@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto+Condensed:wght@300&family=RocknRoll+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cairo&family=Roboto+Condensed:wght@300&family=RocknRoll+One&display=swap");
 
 :root {
   --black: #000000;
@@ -10,41 +10,34 @@
 }
 
 body {
-  font-family:"Trebuchet MS" sans-serif;
+  font-family: "Trebuchet MS" sans-serif;
   /* font-family: "Roboto Condesed" sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--grey) !important;
 }
 
-/* Header */
+/*******************/
+/***** Header ******/
 .logo {
   width: 100%;
   height: 50%;
-} 
-
-.H2-Title {
-  font-size: 50px;
-  font-weight: bolder;
-  color:#ff4081;
 }
 
-h3 {
-  font-size: 40px !important;
+.h2-title {
+  font-size: 50px;  
   font-weight: bolder;
-  color:#ff4081;
-  padding-left: 30px;
-
+  color: #fff9c4;
 }
 
 h4 {
   font-size: 28px !important;
   font-weight: bolder;
-  color:#ff4081;
+  color: #ff4081;
 }
 
-
-/* Navbar CSS */
+/*******************/
+/****** Navbar *****/
 nav .navbar {
   background-color: var(--grey) !important;
 }
@@ -69,70 +62,71 @@ nav ul li {
 /* !important  >> this overwrites bootstrap rules */
 .navbar-nav > li > a {
   color: var(--light-yellow) !important;
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-  border-top: .1875rem solid var(--white);
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--white);
 }
-/* Hover not working */
-/* .navbar-nav > li > a.hover {
-  border-top: .1875rem solid var(--light-yellow)!important;
-} */
 
+.navbar-nav li a:hover {
+  background-color: black !important;
+}
 
-
-/* About */
+/*****************/
+/***** About *****/
 #About {
   width: 100vw;
   padding-left: 13px;
 }
 
 .About {
-  display:grid;
-  grid-template-columns: 1fr,3fr;
+  display: grid;
+  grid-template-columns: 1fr, 3fr;
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 0px;
   padding-top: 10px;
 }
 
-
-  
-.AboutImg { grid-area: 1 / 1 / 5 / 2; }
-.AboutIam { 
-  grid-area: 1 / 2 / 2 / 3; 
-  display:flex;
+.AboutImg {
+  grid-area: 1 / 1 / 5 / 2;
+  padding-left: 10px;
+}
+.AboutIam {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
   align-items: center;
   color: #fff9c4;
   font-size: 75px;
   font-weight: bolder;
-  font-family:'Arial Narrow Bold', sans-serif;
+  font-family: "Arial Narrow Bold", sans-serif;
 }
-.AboutList { 
-  grid-area: 2 / 2 / 3 / 3; 
-  display:flex;
+.AboutList {
+  grid-area: 2 / 2 / 3 / 3;
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
   color: white;
   font-size: 40px;
   font-weight: bold;
 }
-.AboutSE { 
-  grid-area: 3 / 2 / 4 / 3; 
-  display:flex;
-  align-items: center;  
+.AboutSE {
+  grid-area: 3 / 2 / 4 / 3;
+  display: flex;
+  align-items: center;
   color: #fff9c4;
   font-size: 75px;
   font-weight: bolder;
-  font-family:'Arial Narrow Bold', sans-serif;
+  font-family: "Arial Narrow Bold", sans-serif;
 }
-.AboutText { 
-  grid-area: 4 / 2 / 5 / 3; 
-  display:flex;
+.AboutText {
+  grid-area: 4 / 2 / 5 / 3;
+  display: flex;
   align-items: center;
-  color:white;
+  color: white;
   font-weight: bold;
   font-size: 30px;
 }
@@ -141,11 +135,11 @@ nav ul li {
   width: 388px !important;
 }
 
-
-/* Projects */
-.Projects{
+/*******************/
+/***** Projects ****/
+.Projects {
   padding-top: 13px;
-  padding-left: 13px;
+  padding-left: 60px;
 }
 
 .card {
@@ -153,10 +147,15 @@ nav ul li {
   min-height: 32rem;
   margin-left: 30px;
   margin-right: 30px;
+  overflow: hidden;
+}
+
+.overflow {
+  overflow: hidden;
 }
 
 .card:hover {
-  box-shadow: 5px 10px 20px 1px rgba(255,249,196)!important;
+  box-shadow: 5px 10px 20px 1px rgba(255, 249, 196) !important;
 }
 
 .card-body {
@@ -171,48 +170,40 @@ nav ul li {
 .container-fluid {
   padding-top: 6rem;
 }
-/* 
-.overflow {
-  overflow: hidden;
-} */
+
 .card-img-top {
-  transform:scale(1)
+  transform: scale(1);
+  transition: all .4s ease-in-out;
 }
 .card-img-top:hover {
   transform: scale(1.4);
 }
 
-
-
-/* Skills */
+/*******************/
+/****** Skills *****/
 .Skills {
-  padding-top: 13px;
-  padding-left: 13px;
-}
-.col-lg-2 {
-  padding: 8px;
-}
-
-.col-lg-2 img {
-  width: 75px;
-  height: 75px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-bottom: 40px;
 }
 
 hr {
   margin: 1rem 0;
-  background-color:  var(--grey) !important;
   border: 10px;
   opacity: 0.75;
   width: 33px;
 }
 
-
-#Contact {
-width: 100vw;
-padding-left: 13px;
-padding-top: 13px;
+.skill-image > img {
+  width: 100px;
+  height: 100px;
 }
 
+#Contact {
+  width: 100vw;
+  padding-top: 25px;
+  padding-left: 40px;
+}
 
 @media only screen and (max-width: 1414px) {
   .About {
@@ -222,16 +213,19 @@ padding-top: 13px;
   }
   .AboutIam {
     font-size: 55px !important;
+    padding-left: 40px;
   }
   .AboutList {
     flex-wrap: wrap;
     font-size: 30px !important;
+    padding-left: 40px;
   }
   .AboutSE {
     font-size: 40px !important;
+    padding-left: 40px;
   }
   .AboutText {
     font-size: 20px !important;
+    padding-left: 40px;
   }
-
-} 
+}
