@@ -23,7 +23,7 @@ class Projects extends Component {
             <Project
               imgsrc={gigImg}
               title="Gig App"
-              href="https://gig-app-jmch.herokuapp.com/"
+              href="https://gigapp-jmch.herokuapp.com/"
               desc="Bands and band managers need a way to organize their gig schedules and keep track of venue contact information. Gig App allows users to create bands, venues and gigs. The band detail view shows gigs with their venue and dates sorted in date order."
             />
             {/* <Project
