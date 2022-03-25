@@ -4,7 +4,7 @@ import flower from "../assets/flower.svg";
 
 function AboutList() {
   return (
-    <div className="AboutList">
+    <div className="about-list">
       &nbsp;Musician&nbsp;
       <img src={flower} alt="" />
       &nbsp;Meditator&nbsp;

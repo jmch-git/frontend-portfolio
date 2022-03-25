@@ -15,7 +15,7 @@ import Skill from "./Skill";
 
 function SkillsList() {
   return (
-    <div className="Skills" id="Skills">
+    <div className="skills" id="skills">
         <div className="h2-title">
             Skills
         </div>    

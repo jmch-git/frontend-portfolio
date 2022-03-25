@@ -3,11 +3,11 @@ import HeadShot from "./June_Small.png";
 
 function AboutImg() {
   return (
-    <div className="AboutImg">
+    <div className="about-img">
       <img
         src={HeadShot}
         alt="About Me"
-        // className="Headshot rounded-pill border border-5"
+        className="headshot rounded-pill border border-5"
       />
     </div>
   );

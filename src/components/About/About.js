@@ -7,12 +7,15 @@ import AboutText from "./AboutText";
 
 const About = () => {
   return (
-    <div id="About" className="About">
-      <AboutImg />
-      <AboutIm />
-      <AboutList />   
-      <AboutSE />
-      <AboutText />
+    <div id="about">
+      <p> </p><br />
+      <div className="about">
+        <AboutImg />
+        <AboutIm />
+        <AboutList />   
+        <AboutSE />
+        <AboutText />
+      </div>
     </div>
   )
 }

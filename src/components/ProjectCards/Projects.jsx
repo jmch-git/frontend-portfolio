@@ -10,7 +10,8 @@ import "./Projects.css";
 class Projects extends Component {
   render() {
     return (
-      <div id="projects">
+      <div id="projects" className="projects">
+        <p> </p><br />
         <div className="h2-title">Projects</div>
         <div className="container-fluid d-grid p-0 justify-content-center">
           <div className="row">

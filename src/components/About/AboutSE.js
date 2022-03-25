@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutSE() {
   return (
-      <div className="AboutSE">
+      <div className="about-se">
             Software Engineer
     </div>
   )

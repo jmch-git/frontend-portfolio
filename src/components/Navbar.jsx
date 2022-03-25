@@ -17,16 +17,16 @@ function Navbar(props) {
                     <div className="collapse navbar-collapse" id="navmenu">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                        <a href="#About" className="nav-link">About Me</a>
+                        <a href="#about" className="nav-link">About Me</a>
                         </li>
                         <li className="nav-item">
-                        <a href="#Projects" className="nav-link">Projects</a>
+                        <a href="#projects" className="nav-link">Projects</a>
                         </li>
                         <li className="nav-item">
-                        <a href="#Skills" className="nav-link">Skills</a>
+                        <a href="#skills" className="nav-link">Skills</a>
                         </li>
                         <li className="nav-item">
-                        <a href="#Contact" className="nav-link">Contact</a>
+                        <a href="#contact" className="nav-link">Contact</a>
                         </li>
                     </ul>
                     </div>

@@ -11,7 +11,7 @@ function Footer() {
   };
 
   return (
-    <div id="Contact" className="pb-5 border-top">
+    <div id="contact" className="pb-5 border-top contact">
       <div className="h2-title">Let's Chat!</div>
       <div className="container" className="row ">
         <div className="col-4 justify-content-center d-flex">
