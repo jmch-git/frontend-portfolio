@@ -33,12 +33,12 @@ class Projects extends Component {
               href="https://coin-case.herokuapp.com/buys"
               desc="An application that stores and displays personal crypto currency buy data."
             /> */}
-            <Project
+            {/* <Project
               imgsrc={harryImg}
               title="Who's Who in the Wizarding World"
               href="https://romantic-mcclintock-4037d1.netlify.app/"
               desc="An application that returns information about Harry Potter characters when a user inputs a character name."
-            />
+            /> */}
           </div>
         </div>
       </div>
